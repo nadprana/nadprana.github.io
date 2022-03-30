@@ -1,0 +1,29 @@
+
+
+body {
+	background-color: #B56576;
+	font-family: 'Roboto Mono',monospace;
+  }
+
+h1 {
+	color: #355070;
+	font-weight: bold;
+}
+  
+  #main {
+	  text-align: center;
+  }
+  
+  /* Set the size of the containers */
+  #drawing {
+	  box-sizing: border-box;
+	  padding: 20px;
+	  vertical-align: top;
+	  background-color: white;
+	  
+	  display: inline-block;
+	  
+	  border: 4px dotted #6D597A;
+	  border-radius: 15px;
+	  border-block-color: #EAAC8B;
+  }

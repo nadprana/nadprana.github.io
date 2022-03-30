@@ -1,0 +1,51 @@
+body {
+	background-color: #B56576;
+	font-family: 'Roboto Mono',monospace;
+  }
+
+h1 {
+	color: #355070;
+	font-weight: bold;
+}
+  
+
+canvas {
+	/*border: 20px solid hsla(220, 100%, 90%, 1);*/
+	box-shadow: 0px 4px 5px rgba(0, 0, 0, .5);
+	
+}
+
+#main {
+	text-align: center;
+}
+
+#main-column {
+	position: relative;
+	box-sizing: border-box;
+	padding: 20px;
+	vertical-align: top;
+	background-color: white;
+	
+	display: inline-block;
+	
+	border: 4px dotted #6D597A;
+	border-radius: 15px;
+	border-block-color: #EAAC8B;
+}
+
+#map-holder {
+	position: absolute;
+	top:  0px;
+	right:  -20%;
+}
+
+#control-panel {
+	max-width: 480px;
+	margin:  5px;
+}
+
+.slider {
+	display: inline-block;
+	margin:  3px;
+}
+

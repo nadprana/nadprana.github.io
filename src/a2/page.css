@@ -1,0 +1,36 @@
+
+body {
+  background-color: #B56576;
+  font-family: 'Roboto Mono',monospace;
+}
+
+#main {
+	text-align: center;
+}
+
+/* Set the size of the containers */
+.drawing {
+	box-sizing: border-box;
+	margin: 10px;
+	vertical-align: top;
+	background-color: white;
+	
+	display: inline-block;
+	
+    border: 4px dotted #6D597A;
+    border-radius: 15px;
+    border-block-color: #EAAC8B;
+}
+
+.drawing-label {
+	color: #355070;
+	font-weight: bold;
+	margin: 10px;
+	text-align: center;
+}
+
+/* Set the size of the containers */
+.drawing-p5holder {
+	box-sizing: border-box;
+	margin: 10px;
+}
